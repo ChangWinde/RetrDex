@@ -1149,6 +1149,7 @@ section.hero.is-light::before {
 .custom-carousel-item {
   min-width: 100%;
   padding: 1rem 0;
+  transform: translateX(-90px);
 }
 
 .columns.is-centered {
