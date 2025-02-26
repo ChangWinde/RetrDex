@@ -191,6 +191,14 @@ body {
     font-size: 1.2em;
 }
 
+.author-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin: 5px 0;
+}
+
 .publication-venue {
     color: #555;
     width: fit-content;
@@ -389,6 +397,18 @@ body {
     color: #000;
     padding: 0.2em 0;
     font-size: 1.2em;
+}
+
+.institution-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.institution-separator {
+    color: #666;
+    opacity: 0.6;
 }
 
 .institution-name {
@@ -979,6 +999,11 @@ section.hero.is-light::before {
     font-weight: bold;
 }
 
+.blue-font {
+    color: #4086f4;
+    font-weight: bold;
+}
+
 .hero {
     position: relative;
     overflow: hidden;
@@ -1108,6 +1133,92 @@ section.hero.is-light::before {
         grid-template-columns: 1fr;
         gap: 0.5rem;
     }
+}
+
+.custom-carousel {
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+
+.custom-carousel-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.custom-carousel-item {
+  min-width: 100%;
+  padding: 1rem 0;
+}
+
+.columns.is-centered {
+  gap: 2rem;
+  justify-content: center;
+}
+
+.video-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.video-wrapper video {
+  transition: transform 0.3s ease;
+}
+
+.video-wrapper video:hover {
+  transform: scale(1.02);
+}
+
+.video-caption {
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: #363636;
+  font-size: 1.3em;
+  text-align: center;
+  width: 100%;
+}
+
+.video-caption.highlight {
+  font-weight: bold;
+  color: #485fc7;
+  font-size: 1.4em;
+}
+
+.carousel-prev, .carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(64, 134, 244, 0.1);
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  box-shadow: 0 2px 12px rgba(64, 134, 244, 0.15);
+  transition: all 0.3s ease;
+  font-size: 1.5em;
+  color: #4086f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-prev:hover, .carousel-next:hover {
+  background: rgba(64, 134, 244, 0.2);
+  box-shadow: 0 4px 16px rgba(64, 134, 244, 0.25);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-prev { left: 15px; }
+.carousel-next { right: 15px; }
+
+.column.is-5 {
+  display: flex;
+  flex-direction: column;
 }
 
 

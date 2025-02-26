@@ -50,31 +50,57 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Retrieval Dexterity: Efficient Object Retrieval in Clutters with Dexterous Hand</h1>
             <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>
-              </span>
-              <span class="author-block">
-                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>
-              </span>
-              <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-              </span>
+              <!-- First row of authors -->
+              <div class="author-row">
+                <span class="author-block">
+                  <a href="https://Changwinde.github.io" target="_blank">Fengshuo Bai</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://github.com/Student-of-Holmes" target="_blank">Yu Li</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://bxzzcj.github.io/" target="_blank">Jie Chu</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://openreview.net/profile?id=~Tawei_Chou1" target="_blank">Tawei Chou</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://github.com/Zrc007" target="_blank">Runchuan Zhu</a>
+                </span>
+              </div>
+              <!-- Second row of authors -->
+              <div class="author-row">
+                <span class="author-block">
+                  <a href="https://yingwen.io/" target="_blank">Ying Wen</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://www.yangyaodong.com/" target="_blank">Yaodong Yang</a>
+                </span>
+                <span class="author-block">
+                  <a href="https://cypypccpy.github.io/" target="_blank">Yuanpei Chen</a>
+                </span>
+              </div>
             </div>
 
             <div class="publication-venue-authors">
-              <span class="institution-name">Institution Name</span>
-              <span class="venue-name">Conference name and year</span>
-              <span class="eql-cntrb"><sup>*</sup>Equal Contribution</span>
+              <div class="institution-row">
+                <span class="institution-name">Shanghai Jiao Tong University</span>
+                <span class="institution-separator">, </span>
+                <span class="institution-name">PKU-PsiBot Joint Lab</span>
+                <span class="institution-separator">, </span>
+                <span class="institution-name">Peking University</span>
+              </div>
+              <!-- <span class="venue-name"></span>
+              <span class="eql-cntrb"><sup>*</sup>Equal Contribution</span> -->
             </div>
 
             <div class="column has-text-centered">
               <div class="publication-links">
                    <!-- Arxiv PDF link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                  <a href="https://arxiv.org/pdf/2502.18423.pdf" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="fas fa-file-pdf"></i>
@@ -96,18 +122,18 @@
 
             <!-- Github link -->
             <span class="link-block">
-              <a href="https://github.com/YOUR REPO HERE" target="_blank"
+              <a href="https://github.com/ChangWinde/RetrDex" target="_blank"
               class="external-link button is-normal is-rounded is-dark">
               <span class="icon">
                 <i class="fab fa-github"></i>
               </span>
-              <span>Code</span>
+              <span>Code (Coming Soon)</span>
             </a>
           </span>
 
           <!-- ArXiv abstract Link -->
           <span class="link-block">
-            <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+            <a href="https://arxiv.org/abs/2502.18423" target="_blank"
             class="external-link button is-normal is-rounded is-dark">
             <span class="icon">
               <i class="ai ai-arxiv"></i>
@@ -133,7 +159,7 @@
           type="video/mp4">
         </video>
         <h2 class="subtitle">
-          <span class="blue-font">Retrieval Dexterity</span>: Efficient Object Retrieval in Clutters with Dexterous Hand. 
+          <span class="blue-font">Retrieval Dexterity</span> is a system that learns efficient object retrieval in simulation and demonstrates zero-shot real-world deployment.
         </h2>
       </div>
     </div>
@@ -148,7 +174,7 @@
       <h2 class="title is-3">Abstract</h2>
       <div class="content has-text-justified">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+          Retrieving objects buried beneath multiple objects is not only challenging but also time-consuming. Performing manipulation in such environments presents significant difficulty due to complex contact relationships. Existing methods typically address this task by sequentially grasping and removing each occluding object, resulting in lengthy execution times and requiring impractical grasping capabilities for every occluding object. In this paper, we present a dexterous arm-hand system for efficient object retrieval in multi-object stacked environments. Our approach leverages large-scale parallel reinforcement learning within diverse and carefully designed cluttered environments to train policies. These policies demonstrate emergent manipulation skills (e.g., pushing, stirring, and poking) that efficiently clear occluding objects to expose sufficient surface area of the target object. We conduct extensive evaluations across a set of over 10 household objects in diverse clutter configurations, demonstrating superior retrieval performance and efficiency for both trained and unseen objects. Furthermore, we successfully transfer the learned policies to a real-world dexterous multi-fingered robot system, validating their practical applicability in real-world scenarios.
         </p>
       </div>
     </div>
@@ -271,6 +297,7 @@
       <div class="video-grid-caption">
         <span class="yellow-font">Yellow box</span> shows the target object in the training set, while <span class="blue-font">blue box</span> shows the target object in the test set
       </div>
+      <div style="height: 5.5em;"></div>
     </div>
   </div>
 </section>
@@ -316,7 +343,7 @@
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-3">Retrieval Efficiency</h2>
-      <div class="custom-carousel">
+      <div class="custom-carousel" id="comparison-carousel">
         <div class="custom-carousel-container">
           <!-- First group -->
           <div class="custom-carousel-item">
@@ -409,90 +436,6 @@
   </div>
 </section>
 
-
-
-<style>
-.custom-carousel {
-  position: relative;
-  overflow: hidden;
-  padding: 1rem 0;
-}
-
-.custom-carousel-container {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.custom-carousel-item {
-  min-width: 100%;
-  padding: 1rem 0;
-}
-
-.columns.is-centered {
-  gap: 2rem;
-  justify-content: center;
-}
-
-.video-wrapper {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  margin-bottom: 1.5rem;
-}
-
-.video-wrapper video {
-  transition: transform 0.3s ease;
-}
-
-.video-wrapper video:hover {
-  transform: scale(1.02);
-}
-
-.video-caption {
-  margin-top: 8px;
-  margin-bottom: 0;
-  color: #363636;
-  font-size: 1.1em;
-  font-style: italic;
-  text-align: center;
-  width: 100%;
-}
-
-.video-caption.highlight {
-  font-weight: bold;
-  color: #485fc7;
-}
-
-.carousel-prev, .carousel-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(255,255,255,0.9);
-  border: none;
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  transition: all 0.3s ease;
-}
-
-.carousel-prev:hover, .carousel-next:hover {
-  background: rgba(255,255,255,1);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-.carousel-prev { left: 15px; }
-.carousel-next { right: 15px; }
-
-.column.is-5 {
-  display: flex;
-  flex-direction: column;
-}
-</style>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const container = document.querySelector('.custom-carousel-container');
@@ -515,8 +458,59 @@ document.addEventListener('DOMContentLoaded', function() {
     updateCarousel();
   });
 });
+
+function copyBibTeX() {
+  const code = document.querySelector('#bibtex-content').textContent;
+  const button = document.querySelector('.copy-button');
+  const originalContent = button.innerHTML;
+  
+  button.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
+  button.style.background = 'rgba(255,255,255,0.2)';
+  
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(code)
+      .then(() => showSuccess())
+      .catch(() => fallbackCopy());
+  } else {
+    fallbackCopy();
+  }
+  
+  function fallbackCopy() {
+    try {
+      const textarea = document.createElement('textarea');
+      textarea.value = code;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+      showSuccess();
+    } catch (err) {
+      console.error('Copy failed:', err);
+      showError();
+    }
+  }
+  
+  function showSuccess() {
+    button.innerHTML = '<i class="fas fa-check" style="color: #4086f4;"></i>';
+    button.style.background = 'rgba(64, 134, 244, 0.2)';
+    setTimeout(() => {
+      button.innerHTML = originalContent;
+      button.style.background = 'rgba(255,255,255,0.1)';
+    }, 1500);
+  }
+  
+  function showError() {
+    button.innerHTML = '<i class="fas fa-times"></i>';
+    button.style.background = 'rgba(220, 53, 69, 0.2)';
+    setTimeout(() => {
+      button.innerHTML = originalContent;
+      button.style.background = 'rgba(255,255,255,0.1)';
+    }, 1500);
+  }
+}
 </script>
-<!-- End video comparison -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -545,7 +539,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <pre><code id="bibtex-content"><span class="keyword">@inproceedings</span><span class="punctuation">{</span><span class="type">bai2025retrdex</span><span class="punctuation">,</span>
     <span class="field">author</span>    <span class="operator">=</span> <span class="string">{Fengshuo Bai, Yu Li, Jie Chu, Tawei Chou, Runchuan Zhu, Ying Wen, Yaodong Yang, Yuanpei Chen}</span><span class="punctuation">,</span>
     <span class="field">title</span>     <span class="operator">=</span> <span class="string">{Retrieval Dexterity: Efficient Object Retrieval in Clutters with Dexterous Hand}</span><span class="punctuation">,</span>
-    <span class="field">booktitle</span> <span class="operator">=</span> <span class="string">{Arxiv}</span><span class="punctuation">,</span>
+    <span class="field">booktitle</span> <span class="operator">=</span> <span class="string">{arXiv preprint arXiv:2502.18423}</span><span class="punctuation">,</span>
     <span class="field">year</span>      <span class="operator">=</span> <span class="string">{2025}</span>
 <span class="punctuation">}</span></code></pre>
         </div>
@@ -578,7 +572,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <!-- End of Statcounter Code -->
 
-    <script src="config.js"></script>
-    <script src="static/js/index.js"></script>
   </body>
 </html>
